@@ -41,4 +41,3 @@ if (!empty($firstname) || !empty($lastname) || !empty($gender) || !empty($email)
  die();
 }
 ?>
-
