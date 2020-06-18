@@ -1,12 +1,56 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-    <head>
-        <!-- head definitions go here -->
-        Kursova
-    </head>
-    <body>
-        <!-- the content goes here -->
-        Hellow World!
-    </body>
+<head>
+  <title>Register Form</title>
+</head>
+<body>
+ <form action="insert.php" method="POST">
+  <table>
+   <tr>
+    <td>Firstname :</td>
+    <td><input type="text" name="firstname" required></td>
+   </tr>
+   <tr>
+    <td>Lastname :</td>
+    <td><input type="text" name="lastname" required></td>
+   </tr>
+   <tr>
+    <td>Gender :</td>
+    <td>
+     <input type="radio" name="gender" value="m" required>Male
+     <input type="radio" name="gender" value="f" required>Female
+    </td>
+   </tr>
+   <tr>
+    <td>Email :</td>
+    <td><input type="email" name="email" required></td>
+   </tr> 
+   <tr>
+    <td>Phone no :</td>
+    <td>
+     <select name="phoneCode" required>
+      <option selected hidden value="">Select Code</option>
+      <option value="38067">38067</option>
+      <option value="38068">38068</option>
+      <option value="38096">38096</option>
+      <option value="38097">38097</option>
+      <option value="38098">38098</option>
+      <option value="38050">38050</option>
+      <option value="38066">38066</option>
+      <option value="38095">38095</option>
+      <option value="38099">38099</option>
+      <option value="38063">38063</option>
+      <option value="38093">38093</option>
+     </select>
+     <input type="phone" name="phone" required>
+    </td>
+   </tr>
+   <tr>
+    <td><input type="submit" value="Submit"></td>
+   </tr>
+  </table>
+ </form>
+</body>
 </html>
+
 
