@@ -1,6 +1,6 @@
 <?php
 //Connect to DB
- $db = mysqli_connect('localhost','root','root','database_name')
+ $db = mysqli_connect('sql.pozdrovska.tld','root','root','database_name')
  or die('Error connecting to MySQL server.');
 ?>
 
