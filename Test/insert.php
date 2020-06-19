@@ -1,3 +1,11 @@
+<head>
+  <title>MyPhoneBook</title>
+</head>
+
+<form action="index.html" method="POST">
+<input type="submit" value="Add new contact">
+</form>
+
 <?php
 $firstname = $_POST['firstname'];
 $lastname = $_POST['lastname'];
@@ -41,3 +49,8 @@ if (!empty($firstname) || !empty($lastname) || !empty($gender) || !empty($email)
  die();
 }
 ?>
+
+</body>
+</html>
+
+
